@@ -1,0 +1,29 @@
+# scfan
+
+#单个图片的格式为：
+#name:
+#    large_link: /images/photo/1-large.jpg
+#    small_link: /images/photo/1-small.jpg
+#    very_small_link: /images/photo/1-very-small.jpg
+#    alt: "image 1"
+#*注：alt属性要对每照片编号
+#
+#large_link: 原图 small_link: 小图片，建议正方形 very_small_link:模糊加载时首先加载的模糊图片
+#
+#如果想要添加多个图片，重复填写即可
+
+
+# yml 文件 和 photo.ejs相对应 scfan
+鸢一折纸:
+	large_link: /images/photo/1-large.jpg
+	small_link: /images/photo/1-small.jpg
+	#very_small_link: /images/photo/1-small.jpg
+	alt: "image 1"
+	Model: "测试相机scfan"
+	FocalLength: "测试焦段scfan"
+
+晓美焰:
+	large_link: /images/photo/2-large.jpg
+	small_link: /images/photo/2-small.jpg
+	very_small_link:  
+	alt: "image 2"

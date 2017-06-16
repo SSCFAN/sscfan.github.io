@@ -1,0 +1,18 @@
+# 存放 友情链接 涉及文件: friends.ejs 读取_data/friends.yml ,使用friends/index.md规定layout
+# scfan
+#名称:
+#	link:链接
+#	descri:描述
+# 注：空格和tab不能混用
+
+常用公共链接:
+  link: https://www.baidu.com
+  descr: "百度一下"
+
+别说话感受我的帅:
+  link: https://www.vvin.org
+  descr: "臣服吧 世界！！"
+
+ACG_B站:
+  link: https://www.bilibili.com
+  descr: "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili"

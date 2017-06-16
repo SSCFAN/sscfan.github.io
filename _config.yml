@@ -6,9 +6,11 @@
 title: Hexo
 subtitle:
 description:
-author: John Doe
+#author: Scfan
 language:
 timezone:
+
+
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -40,7 +42,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
 
 # Category & Tag
@@ -78,3 +80,22 @@ deploy:
 live2d:
   model: koharu
   bottom: -60
+
+# 站内搜索 -- TODO test
+search:
+  path: search.xml
+  field: all
+
+# 代码高亮
+prism_plugin:
+  mode: 'preprocess'    # realtime：实时解析/preprocess：预处理
+  theme: 'dark'  # 高亮皮肤 默认为default 可选有default,coy,dark,funky,okaidia,solarizedlight,tomorrow,twiligh
+  line_number: true    # default false 是否显示行数
+
+
+# About page 
+about:
+  email: ## 个人邮箱 
+  weibo_url: ## 微博主页链接地址
+  github_url: ## github主页链接地址
+
